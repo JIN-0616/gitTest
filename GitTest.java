@@ -3,14 +3,15 @@ package gitTest;
 import java.util.Calendar;
 
 public class GitTest {
-  
+
   private String name;
   private String id;
   private Strign password;
-  public String getName() {
-    return name;
-  }
   
+  public String getId() {
+    return id;
+  }  
+
   public void setName(String name) {
     this.name = name;
   }
@@ -24,13 +25,13 @@ public class GitTest {
   }
 
   private String email;
-  
+
   public static void main(String[] args) {
     Calendar cal = Calendar.getInstance();
     System.out.println(cal.toString());
-    
+
     String abc;
-    
+
     abc = "def";
   }
 }
