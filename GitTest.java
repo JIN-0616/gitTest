@@ -5,11 +5,12 @@ import java.util.Calendar;
 public class GitTest {
   
   private String name;
-  
+  private String id;
+  private Strign password;
   public String getName() {
     return name;
   }
-
+  
   public void setName(String name) {
     this.name = name;
   }
@@ -27,5 +28,9 @@ public class GitTest {
   public static void main(String[] args) {
     Calendar cal = Calendar.getInstance();
     System.out.println(cal.toString());
+    
+    String abc;
+    
+    abc = "def";
   }
 }
