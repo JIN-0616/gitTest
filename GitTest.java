@@ -1,5 +1,7 @@
 package gitTest;
 
+import java.util.Calendar;
+
 public class GitTest {
   
   private String name;
@@ -23,6 +25,7 @@ public class GitTest {
   private String email;
   
   public static void main(String[] args) {
-    String abc = "abc";
+    Calendar cal = Calendar.getInstance();
+    System.out.println(cal.toString());
   }
 }
